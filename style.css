@@ -75,7 +75,7 @@ body{
 }
 
 .freesession {
-    background-image: url(images\example2.jpg);
+    background-image: url(example2.jpg);
     width: 100%;
     height: 715px;
 }
@@ -146,8 +146,45 @@ body{
 
 .introduction p {
     font: lighter;
-    color: rgba(0, 0, 0, 0.649);
+    color: rgba(0, 0, 0, 0.76);
     font-size: 17px;
     text-align: center;
     margin-top: 20px;
+}
+
+#overlay{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.426);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.submitionnotif{
+    position: relative;
+    top: 20%;
+    height: 65%;
+    width: 85%;
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.submitionnotif .closebutton{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: black;
 }
